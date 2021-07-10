@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 					glue="steps", 
 					monochrome = true, 
 					publish=true,
-					tags="@Functional")
+					tags="@Regression")
 public class RunSimpleTagsTest extends AbstractTestNGCucumberTests{
 
 }
