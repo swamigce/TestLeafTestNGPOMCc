@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="SequentialTest(failed)">
+    <classes>
+      <class name="POMTests.DelectContactrReqTC">
+        <methods>
+          <include name="setWebDriver"/>
+          <include name="deleteContactReq"/>
+          <include name="loginSFDC"/>
+        </methods>
+      </class> <!-- POMTests.DelectContactrReqTC -->
+      <class name="POMTests.NewContactReqTC">
+        <methods>
+          <include name="setWebDriver"/>
+          <include name="testContactReq"/>
+          <include name="loginSFDC"/>
+        </methods>
+      </class> <!-- POMTests.NewContactReqTC -->
+    </classes>
+  </test> <!-- SequentialTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
